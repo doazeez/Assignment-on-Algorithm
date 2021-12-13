@@ -1,4 +1,4 @@
-//function that takes an array of integers, replaces each element of the array with the product of the other elements
+//function that merges elements of at most two arrays and returns an array of the merged elements in sorted order.
 function mergeArray(arr1, arr2){
     let res = [];
    for(let I = 0; I < arr1.lenght; I++){
