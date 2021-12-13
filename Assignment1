@@ -1,0 +1,14 @@
+//function that takes an array of integers, replaces each element of the array with the product of the other elements
+function mergeArray(arr1, arr2){
+    let res = [];
+   for(let I = 0; I < arr1.lenght; I++){
+     res.push(arr1[I]);
+    }
+  for(let j = 0; j < arr2.length; j++ ){
+   if(!arr1.includes(arr2[j])){
+      res.push(arr2[j]);
+    }
+      res.sort();
+  }
+    return res;
+}
